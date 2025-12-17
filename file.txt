@@ -1,0 +1,3 @@
+npm install concurrently wait-on electron-builder electron --save-dev
+npm run build
+npm run dist:win

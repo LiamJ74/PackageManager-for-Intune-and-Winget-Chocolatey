@@ -1,0 +1,17 @@
+{
+  "name": "package-manager-intune",
+  "version": "1.0.0",
+  "description": "Package Manager for Intune",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "build": "pkg . --targets node16-win-x64 --output PackageManagerIntune.exe"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "electron": "^25.9.8",
+    "electron-builder": "^26.0.12",
+    "pkg": "^5.8.1",
+    "wait-on": "^9.0.3"
+  }
+}
